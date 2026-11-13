@@ -1,0 +1,32 @@
+{
+  "name": "t3-antigravity-context-bridge",
+  "version": "0.1.0",
+  "description": "Zero-dependency stdio ACP wrapper that surfaces Antigravity CLI context window usage in T3 Code",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/hongdongjie/t3-antigravity-context-bridge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongdongjie/t3-antigravity-context-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hongdongjie/t3-antigravity-context-bridge/issues"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "test": "node --no-warnings --test test.mjs",
+    "setup": "node --no-warnings setup.mjs",
+    "uninstall": "node --no-warnings setup.mjs --uninstall"
+  },
+  "keywords": [
+    "t3code",
+    "t3-code",
+    "antigravity",
+    "antigravity-cli",
+    "acp",
+    "context-window",
+    "usage"
+  ]
+}
